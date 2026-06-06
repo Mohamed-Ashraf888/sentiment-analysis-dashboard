@@ -158,6 +158,7 @@ git commit -m "Update README with installation instructions"
 
 ## Screenshots
 
+
 ## Dashboard Screenshots
 
 ### Prediction Result
