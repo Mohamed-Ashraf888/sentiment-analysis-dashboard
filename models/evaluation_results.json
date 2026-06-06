@@ -1,0 +1,56 @@
+[
+  {
+    "model": "Logistic Regression",
+    "accuracy": 0.8905,
+    "precision": 0.8904995730623257,
+    "recall": 0.8905,
+    "f1_score": 0.890499777623361,
+    "confusion_matrix": [
+      [
+        4351,
+        548
+      ],
+      [
+        547,
+        4554
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n    Negative       0.89      0.89      0.89      4899\n    Positive       0.89      0.89      0.89      5101\n\n    accuracy                           0.89     10000\n   macro avg       0.89      0.89      0.89     10000\nweighted avg       0.89      0.89      0.89     10000\n"
+  },
+  {
+    "model": "Naive Bayes",
+    "accuracy": 0.8797,
+    "precision": 0.8796968545976251,
+    "recall": 0.8797,
+    "f1_score": 0.8796977144854662,
+    "confusion_matrix": [
+      [
+        4293,
+        606
+      ],
+      [
+        597,
+        4504
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n    Negative       0.88      0.88      0.88      4899\n    Positive       0.88      0.88      0.88      5101\n\n    accuracy                           0.88     10000\n   macro avg       0.88      0.88      0.88     10000\nweighted avg       0.88      0.88      0.88     10000\n"
+  },
+  {
+    "model": "SVM",
+    "accuracy": 0.8911,
+    "precision": 0.8910995755113447,
+    "recall": 0.8911,
+    "f1_score": 0.891099778841863,
+    "confusion_matrix": [
+      [
+        4354,
+        545
+      ],
+      [
+        544,
+        4557
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n    Negative       0.89      0.89      0.89      4899\n    Positive       0.89      0.89      0.89      5101\n\n    accuracy                           0.89     10000\n   macro avg       0.89      0.89      0.89     10000\nweighted avg       0.89      0.89      0.89     10000\n"
+  }
+]

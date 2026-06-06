@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+models/*.joblib
+database/*.db
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+.DS_Store
+
+venv/

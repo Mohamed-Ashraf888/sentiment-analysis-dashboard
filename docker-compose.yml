@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  dashboard:
+    build: .
+    container_name: sentiment_dashboard
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./database:/app/database
+      - ./models:/app/models
+      - ./data:/app/data
