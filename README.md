@@ -158,4 +158,13 @@ git commit -m "Update README with installation instructions"
 
 ## Screenshots
 
-Add dashboard screenshots here before final submission.
+## Dashboard Screenshots
+
+### Prediction Result
+![Prediction Result](screenshots/prediction_result.png)
+
+### Sentiment Distribution
+![Sentiment Distribution](screenshots/sentiment_distribution.png)
+
+### Prediction History
+![Prediction History](screenshots/prediction_history.png)
